@@ -1,0 +1,21 @@
+{
+  "name": "displayip-tool",
+  "version": "1.0.0",
+  "description": "simple app that display your ip when browsing",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-packager . ipchecker --platform=win32 --arch=x64 --overwrite"
+   
+  },
+  "author": "Barnak",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^29.1.1",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
